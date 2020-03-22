@@ -1,2 +1,2 @@
-# 8values.github.io
-The 8values Political Quiz measures individuals' political values, including Equality, Might, Liberty, Tradition, Wealth, Peace, Authority, and Progress.
+# socvalues.github.io
+The socValues Political Quiz measures individuals' political values on 5 axes which are: Liberty-Authority, Socialist-Capitalist, Progressive-Conservative, Technological-Traditional and Environmental-Industrial.
