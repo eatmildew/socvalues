@@ -1,2 +1,2 @@
 # socvalues.github.io
-The socValues Political Quiz measures individuals' political values on 5 axes which are: Liberty-Authority, Socialist-Capitalist, Progressive-Conservative, Technological-Traditional and Environmental-Industrial.
+The SocValues Political Quiz measures individuals' political values on six axes which are: Socialist-Capitalist, Libertarian-Authoritarian, Progressive-Conservative, Internationalist-Nationalist, Environmental-Industrialist and Technological-Traditional.
