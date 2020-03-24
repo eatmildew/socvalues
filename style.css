@@ -139,45 +139,65 @@ div.text-wrapper {
     color: #222222;
     display: inline-block;
 }
-div.equality {
+div.socialist {
     background-color: #f44336;
     text-align: left;
     border-right-style: solid;
 }
-div.wealth {
+div.capitalist {
     background-color: #00897b;
     text-align: right;
     border-left-style: solid;
 }
-div.liberty {
+div.libertarian {
     background-color: #ffeb3b;
     text-align: left;
     border-right-style: solid;
 }
-div.authority {
+div.authoritarian {
+    background-color: #954842;
+    text-align: right;
+    border-left-style: solid;
+}
+div.progressive {
+    background-color: #9c27b0;
+    text-align: left;
+    border-right-style: solid;
+}
+div.conservative {
     background-color: #3f51b5;
     text-align: right;
     border-left-style: solid;
 }
-div.peace {
+div.internationalist {
     background-color: #03a9f4;
-    text-align: right;
-    border-left-style: solid;
-}
-div.might {
-    background-color: #ff9800;
     text-align: left;
     border-right-style: solid;
 }
-div.progress {
-    background-color: #9c27b0;
+div.nationalist {
+    background-color: #ff9800;
     text-align: right;
     border-left-style: solid;
 }
-div.tradition {
+div.environmental {
     background-color: #8bc34a;
     text-align: left;
     border-right-style: solid;
+}
+div.industrialist {
+    background-color: #815e20;
+    text-align: right;
+    border-left-style: solid;
+}
+div.technological {
+    background-color: #61e6df;
+    text-align: left;
+    border-right-style: solid;
+}
+div.traditional {
+    background-color: #ef7cd3;
+    text-align: right;
+    border-left-style: solid;
 }
 span.weight-300 {
     font-weight: 300;
