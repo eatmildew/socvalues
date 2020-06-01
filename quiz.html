@@ -48,10 +48,10 @@ stats"></a></div></noscript>
 
 <!-- JavaScript for the test itself -->
 <script>
-    var max_econ, max_govt, max_scty, max_dipl, max_envr, max_tech; // Max possible scores
-    max_econ = max_govt = max_scty = max_dipl = max_envr = max_tech = 0;
-    var econ, govt, scty, dipl, envr, tech; // User's scores
-    econ = govt = scty = dipl = envr = tech = 0;
+    var max_econ, max_govt, max_scty, max_dipl, max_envr, max_tech, max_focs, max_reli; // Max possible scores
+    max_econ = max_govt = max_scty = max_dipl = max_envr = max_tech = max_focs = max_reli = 0;
+    var econ, govt, scty, dipl, envr, tech, focs, reli; // User's scores
+    econ = govt = scty = dipl = envr = tech = focs = reli = 0;
     var qn = 0; // Question number
     var prev_answer = null;
     init_question();
@@ -62,6 +62,8 @@ stats"></a></div></noscript>
         max_dipl += Math.abs(questions[i].effect.dipl)
 		max_envr += Math.abs(questions[i].effect.envr)
 		max_tech += Math.abs(questions[i].effect.tech)
+		max_focs += Math.abs(questions[i].effect.focs)
+		max_reli += Math.abs(questions[i].effect.reli)
     }
     function init_question() {
         document.getElementById("question-text").innerHTML = questions[qn].question;
@@ -83,6 +85,8 @@ stats"></a></div></noscript>
         dipl += mult*questions[qn].effect.dipl
 		envr += mult*questions[qn].effect.envr
 		tech += mult*questions[qn].effect.tech
+		focs += mult*questions[qn].effect.focs
+		reli += mult*questions[qn].effect.reli
         qn++;
         prev_answer = mult;
         if (qn < questions.length) {
@@ -102,6 +106,8 @@ stats"></a></div></noscript>
         dipl -= prev_answer * questions[qn].effect.dipl;
 		envr -= prev_answer * questions[qn].effect.envr;
 		tech -= prev_answer * questions[qn].effect.tech;
+		focs -= prev_answer * questions[qn].effect.focs;
+		reli -= prev_answer * questions[qn].effect.reli;
         prev_answer = null;
         init_question();
 
@@ -117,6 +123,8 @@ stats"></a></div></noscript>
             + `&d=${calc_score(dipl,max_dipl)}`
 			+ `&n=${calc_score(envr,max_envr)}`
 			+ `&t=${calc_score(tech,max_tech)}`
+			+ `&f=${calc_score(focs,max_focs)}`
+			+ `&r=${calc_score(reli,max_reli)}`
     }
 </script>
 </body>

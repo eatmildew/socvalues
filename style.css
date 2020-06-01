@@ -139,63 +139,83 @@ div.text-wrapper {
     color: #222222;
     display: inline-block;
 }
-div.socialist {
+div.equality {
     background-color: #f44336;
     text-align: left;
     border-right-style: solid;
 }
-div.capitalist {
+div.classs {
     background-color: #00897b;
     text-align: right;
     border-left-style: solid;
 }
-div.libertarian {
-    background-color: #ffeb3b;
+div.coercion {
+    background-color: #3f51b5;
     text-align: left;
     border-right-style: solid;
 }
-div.authoritarian {
-    background-color: #954842;
+div.freedom {
+    background-color: #ffeb3b;
     text-align: right;
     border-left-style: solid;
 }
-div.progressive {
+div.progress {
     background-color: #9c27b0;
     text-align: left;
     border-right-style: solid;
 }
-div.conservative {
-    background-color: #3f51b5;
+div.tradition {
+    background-color: #6de3d7;
     text-align: right;
     border-left-style: solid;
 }
-div.internationalist {
-    background-color: #03a9f4;
+div.nation {
+    background-color: #ff9800;
     text-align: left;
     border-right-style: solid;
 }
-div.nationalist {
-    background-color: #ff9800;
+div.world {
+    background-color: #03a9f4;
     text-align: right;
     border-left-style: solid;
 }
-div.environmental {
+div.environment {
     background-color: #8bc34a;
     text-align: left;
     border-right-style: solid;
 }
-div.industrialist {
-    background-color: #815e20;
+div.industry {
+    background-color: #ed38b4;
     text-align: right;
     border-left-style: solid;
 }
-div.technological {
-    background-color: #61e6df;
+div.futurist {
+    background-color: #1b57ee;
     text-align: left;
     border-right-style: solid;
 }
-div.traditional {
-    background-color: #ef7cd3;
+div.primitivist {
+    background-color: #158830;
+    text-align: right;
+    border-left-style: solid;
+}
+div.individual {
+    background-color: #be85fe;
+    text-align: left;
+    border-right-style: solid;
+}
+div.collective {
+    background-color: #d90000;
+    text-align: right;
+    border-left-style: solid;
+}
+div.religious {
+    background-color: #ff6c6c;
+    text-align: left;
+    border-right-style: solid;
+}
+div.secular {
+    background-color: #46804b;
     text-align: right;
     border-left-style: solid;
 }
